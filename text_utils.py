@@ -1,5 +1,5 @@
 def clean_text(text):
-    cleaned_text = text.lower().strip()
+    cleaned_text = " ".join(text.lower().split())
     return cleaned_text
 
 
